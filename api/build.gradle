@@ -1,5 +1,13 @@
 plugins {
     id 'java'
+    id 'java-library'
+}
+
+repositories {
+
+    flatDir {
+        dirs "${project.rootDir}/utils/build/libs"
+    }
 }
 
 version '1.0-SNAPSHOT'

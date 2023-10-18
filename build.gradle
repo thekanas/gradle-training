@@ -3,11 +3,7 @@ subprojects  {
 
     repositories {
         mavenCentral()
-        flatDir {
-            dirs "${project.rootDir}/lib"
-        }
     }
 }
-
 
 version '1.0-SNAPSHOT'
